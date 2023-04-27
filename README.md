@@ -83,7 +83,7 @@ app.post('/api/register', async (req, res) => {
 })
 
 
-// route fro Previous user login
+// route for Previous user login
 app.post('/api/login', async (req, res) => {
 	const user = await User.findOne({
 		email: req.body.email,
@@ -231,4 +231,4 @@ function Login() {
 
 export default Login
 ```
-
+https://img.shields.io/badge/Made%20by%20%E2%9D%A4%EF%B8%8F-yasar-blue
