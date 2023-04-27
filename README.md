@@ -231,4 +231,4 @@ function Login() {
 
 export default Login
 ```
-https://img.shields.io/badge/Made%20by%20%E2%9D%A4%EF%B8%8F-yasar-blue
+[![AGPL License](https://img.shields.io/badge/Made%20by%20%E2%9D%A4%EF%B8%8F-yasar-blue)](http://www.gnu.org/licenses/agpl-3.0)
