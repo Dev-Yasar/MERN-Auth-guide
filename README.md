@@ -1,4 +1,6 @@
 # Guide to MERN Stack Auth
+![Logo](https://img.freepik.com/free-vector/computer-login-concept-illustration_114360-7962.jpg?w=2000)
+
 [![AGPL License](https://img.shields.io/badge/Made%20by%20%E2%9D%A4%EF%B8%8F-yasar-blue)](http://www.gnu.org/licenses/agpl-3.0)
 ## Tech Stack
 
