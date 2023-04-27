@@ -155,23 +155,20 @@ function Register() {
 
 	return (
         <div>
-
-
-<div className='MAINauth' >
-<div class="form-container">
-    <p>Register new admin </p>
-<form class="form"onSubmit={registerUser}>
-<label>Name</label>
-    <input type="text" class="input" 	onChange={(e) => setName(e.target.value)} placeholder="Enter your name"/>
-    <label>Email</label>
-    <input type="text" class="input" 	onChange={(e) => setEmail(e.target.value)} placeholder="Enter yout email"/>
-    <label>Password</label>
-    <input type="password" class="input"  onChange={(e) => setPassword(e.target.value)} placeholder="Password"/> 
-    <button className='AuthBtn'>Login</button>
-</form>
-</div>
-</div>
-
+	<div className='MAINauth' >
+	<div class="form-container">
+	    <p>Register new admin </p>
+	<form class="form"onSubmit={registerUser}>
+	<label>Name</label>
+	    <input type="text" class="input" 	onChange={(e) => setName(e.target.value)} placeholder="Enter your name"/>
+	    <label>Email</label>
+	    <input type="text" class="input" 	onChange={(e) => setEmail(e.target.value)} placeholder="Enter yout email"/>
+	    <label>Password</label>
+	    <input type="password" class="input"  onChange={(e) => setPassword(e.target.value)} placeholder="Password"/> 
+	    <button className='AuthBtn'>Login</button>
+	</form>
+	</div>
+	</div>
      </div>
 	)
 }
@@ -214,24 +211,21 @@ function Login() {
 	}
 
 	return (
-		<div>
+	<div> 
+	<div className='MAINauth' >
 
-       
-<div className='MAINauth' >
-
-<div class="form-container">
-    <p>Welcome,Admin</p>
-<form class="form" onSubmit={loginUser}>
-    <label>Email</label>
-    <input type="text" class="input" 	onChange={(e) => setEmail(e.target.value)} placeholder="Enter yout email"/>
-    <label>Password</label>
-    <input type="password" class="input"  onChange={(e) => setPassword(e.target.value)} placeholder="Password"/> 
-    <button className='AuthBtn'>Login</button>
-</form>
-</div>
-</div>
-
-		</div>
+	<div class="form-container">
+	    <p>Welcome,Admin</p>
+	<form class="form" onSubmit={loginUser}>
+	    <label>Email</label>
+	    <input type="text" class="input" 	onChange={(e) => setEmail(e.target.value)} placeholder="Enter yout email"/>
+	    <label>Password</label>
+	    <input type="password" class="input"  onChange={(e) => setPassword(e.target.value)} placeholder="Password"/> 
+	    <button className='AuthBtn'>Login</button>
+	</form>
+	</div>
+	</div>
+	</div>
 	)
 }
 
